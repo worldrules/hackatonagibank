@@ -1,0 +1,29 @@
+$font-size: 75px;
+#educa {
+  color: #008c75;
+  font-size: $font-size;
+}
+#cardBody{
+  height: 100vh;
+}
+#juntos {
+  color: #202020;
+  font-size: $font-size;
+}
+#body h4{
+  color: #4A6562;
+}
+#login-cadastro{
+  font-size: 20px;
+  text-decoration: underline;
+}
+#btn{
+  border-radius: 30px;
+  width: 50%;
+  background-color: #008C75;
+  color: white;
+  height: 45px;
+}
+#saudacao{
+  margin-top: 55% !important;
+}

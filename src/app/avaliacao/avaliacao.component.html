@@ -1,0 +1,86 @@
+<div id="wrapper">
+  <div class="col-12">
+    <div class="text-center mb-4 " id="cardTop">
+      <div class="row">
+        <div class="col-2 mt-2">
+          <a id="arrowback" [routerLink]="['/chat']"
+            ><i class="fas fa-arrow-left"></i
+          ></a>
+        </div>
+        <div class="mt-2">
+          <h4>Avaliações</h4>
+        </div>
+      </div>
+    </div>
+    <!-- inicio apresentação 1 -->
+    <div id="bodyChat mt-2">
+      <div class="row mt-4 ml-2">
+        <div class="col-2">
+          <div id="imgChatBot">
+            <img
+              id="iconAtendente"
+              src="../../assets/img/user-icon.png"
+              alt="Imagem referente ao atendente."
+            />
+          </div>
+        </div>
+        <div class="col-9">
+          <p>Angélica Belmonte</p>
+          <p>
+            Acredito que a escola tem tido um bom desempenho tanto na questão de
+            ensino quanto na questão social.
+          </p>
+        </div>
+      </div>
+
+      <div id="bodyChat mt-2">
+        <div class="row mt-4 ml-2">
+          <div class="col-2">
+            <div id="imgChatBot">
+              <img
+                id="iconAtendente"
+                src="../../assets/img/user-icon.png"
+                alt="Imagem referente ao atendente."
+              />
+            </div>
+          </div>
+          <div class="col-9">
+            <p>Mônica Rodrigues</p>
+            <p>
+              Acredito que a estar bem amparada pela escola.
+            </p>
+          </div>
+        </div>
+
+        <div class="form-group footer">
+          <label for="comentario">Deixe seu comentário:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="comentario"
+            placeholder="Escreva seu comentário."
+          />
+        </div>
+        <div class="row">
+          <div class="col-12 text-right">
+            <button
+              type="button"
+              class="btn btn-primary mr-1 btnRadius "
+              (click)="Enviar()"
+            >
+              Enviar
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary btnRadius"
+              (click)="Cancelar()"
+            >
+              Cancelar
+            </button>
+          </div>
+        </div>
+        <!-- fim apresentação 1 -->
+      </div>
+    </div>
+  </div>
+</div>

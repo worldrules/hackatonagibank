@@ -1,0 +1,48 @@
+.circulo {
+    width: 60px;
+    height: 60px;
+    background-color: #008C75 !important;
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+.circulo-esquerda {
+    width: 63px;
+    height: 63px;
+    background-color: #008C75 !important;    
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid white;
+    margin-top: -57px;
+    margin-left: -5px;
+}
+#infos{
+    font-size: 14px;;
+}
+#infos ul{
+    margin-top: 10px;
+}
+
+.nota {
+    color: white;
+    margin-top: 20%;
+}
+
+.titulo-upper {
+    text-transform: uppercase;
+}
+#header{
+    background-color: #005FC3;
+}
+
+.tituloIdentificador{
+    color: #005FC3;
+}
+.header{
+    background-color: #005FC3;
+    color: white;
+}

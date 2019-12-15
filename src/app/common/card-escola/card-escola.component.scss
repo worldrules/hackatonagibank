@@ -1,0 +1,51 @@
+.nome-escola {
+  font-size: 80%;
+}
+
+.info-categoria {
+  position: absolute;
+  top: -35px;
+  right: 0;
+  margin: 0 !important;
+  padding: 10px;
+}
+.badge {
+  border-radius: 20px 0 0 0;
+  font-size: 12;
+  background-color: #0e8f00 !important;
+  color: white;
+}
+.nomeEscola {
+  color: #0e8f00;
+}
+.subtitle {
+  color: #202020;
+  font-weight: bold;
+}
+.badge-solucao {
+  border-radius: 30px;
+  width: 100px;
+  font-size: 12;
+  background-color: #0e8f00 !important;
+  color: white;
+}
+
+.badge-solucao-maior{
+    border-radius: 20px;
+
+    font-size: 12;
+    background-color: #0e8f00 !important;
+    color: white;
+}
+#rating{
+    font-size: 70px;
+    color: #005FC3;
+    margin-top: -45px;
+    margin-left: -50px;
+}
+#nota-rating{
+    font-size: 25px;
+}
+#span-rating{
+    margin: 0 !important;
+}
